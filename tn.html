@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+        body{
+            background-image: url(https://www.jobtrainworks.org/wp-content/uploads/2018/11/Picture-for-registration-page-blur-1024x565.jpg);
+            background-repeat: no-repeat;
+            background-size: 1500px 1000px;
+
+
+        }
+        .rgstr{
+            text-align: center;
+            color: rgb(61, 247, 247);
+        }
+        .dtls{
+            /* border: 2px solid red; */
+            color: rgb(186, 242, 170);
+    padding: 33px;
+    margin: -43px 353px
+        }
+   .name{
+    /* border: 2px solid red; */
+    color: azure;
+    padding: 8px;
+    margin: -18px 357px;
+    
+}
+input{
+    border-radius: 44px;
+    margin: 11px 26px;
+    padding-right: 33px;
+}
+.em{
+    color: azure;
+    padding: 8px;
+    margin: 34px 384px;
+}
+.psswrd{
+   color: azure;
+   padding: 2px;
+   margin: 27px -24px;
+}
+   h3{
+    color: rgb(241, 131, 131);
+   }
+   .prfn{
+    color: rgb(186, 242, 170);
+   }
+   .stage{
+   /* border: 2px solid red; */
+    margin: 21px -27px;
+    padding: 7px;
+   }
+ textarea{
+    border-radius: 18px;
+ }
+ .birth{
+    /* border: 2px solid red; */
+    margin: -22px -23px;
+    padding: 2px;
+ }
+ .note{
+    margin: 20px -27px;
+    padding: 7px;
+ }
+ button{
+    
+    border-radius: 10px;
+    margin:-18px 5px;
+    padding: 3px;
+ }
+
+    </style>
+</head>
+<body>
+    <div class="rgstr">
+        <h1>Registration Form</h1>
+    </div>
+    <div class="dtls">
+        <h2>Enter your details below</h2>
+    </div>
+ <div class="name">
+    first name: <input type="text" placeholder="enter your first name"> last name: <input type="text" placeholder="enter your last name">
+ </div>
+ <div class="em">
+   Email: <input type="email" placeholder="abcd@gmail.com">
+ <div class="psswrd">
+   password: <input type="passward" placeholder="password" id="psswrd">
+   <br>
+   
+   <h3>!type a complex password with 8-20 characters</h3>
+   <hr>
+ </div>
+ <div class="abc">
+    <h2 class="prfn">Enter your profession:</h2>
+    <input type="radio" name="prfssn"> Student
+    <input type="radio" name="prfssn"> Teacher
+    <input type="radio" name="prfssn" > Developer
+    
+ </div>
+ <div class="stage">
+    Choose the stage if you are(stdunt)
+    <select name="student" id="">
+        <option value="first primary">first primary</option>
+        <option value="second primary">second primary</option>
+        <option value="third primary">third primary</option>
+    </select>
+    <br>
+    <br>
+    <hr>
+ </div>
+ <div class="birth">
+    Enter your birth date: <input type="date">
+
+ </div>
+ <div class="note">
+    <textarea name="text" id="" cols="30" rows="1" placeholder="Any notes"></textarea>
+    <hr>
+    <br>
+    <button>submit</button> <button>reset</button>
+ </div>
+ <!-- <div class="submit">
+    <button>submit</button> <button>reset</button>
+ </div> -->
+
+
+</body>
+</html>
